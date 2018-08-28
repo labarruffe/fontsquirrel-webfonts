@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'latobold';
+    src: url('webfontkit/lato-bold-webfont-webfont.woff2') format('woff2'),
+         url('webfontkit/lato-bold-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 20px 10px;
+    padding: 0px;
+    font-family: latobold;
+}
+
+/* definição de 3 colunas que se ajustam na largura disponível */
+.col1 {
+    /* quantidade de colunas */
+    -webkit-column-count: 3;
+    /* espaço entre as colunas */
+    -webkit-column-gap: 60px;
+    /* separador entre as colunas */
+    -webkit-column-rule: 5px outset #666699;
+}
+
+/* largura das colunas pré-definidas, a quantidade de colunas depende da largura disponível */
+.col2 {
+    /* largura de cada coluna */
+    -webkit-column-width: 200px;
+    /* espaço entre as colunas */
+    -webkit-column-gap: 30px;
+    /* separador entre as colunas */
+    -webkit-column-rule: 5px outset #666699;
+}
+
+h1 {
+    font-size: 50px;
+}
